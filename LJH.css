@@ -1,0 +1,343 @@
+.body {
+    width : 100vw;
+
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 30px;
+    background-color: white;
+    color: #2dbdff;
+    font-size: 18px;
+    z-index: 10;
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: right;
+    margin-bottom : 10px;
+    list-style:none;
+  }
+
+.list-link {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+  }
+
+.bar-bg {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #2dbdff;
+  }
+ 
+.profile{
+    display : flex;
+    justify-content:  center;
+    align-items:  center;
+    background-color: #ebf8ff;
+  }
+
+#profile-first {
+    display:  flex;
+    justify-content: space-around;
+    align-items:  center;
+    margin-top :100px;
+    width : 1000px;
+    height : 500px;
+    
+  }
+#profile-test1 {
+    width: 500px;
+    height : 300px;
+}
+
+#profile-test2 {
+    display:  flex;
+    align-items: flex-end;
+    margin-top: 200px;
+    width: 600px;
+    height : 300px;
+    color: #2dbdff;
+    font-size: 35px;
+    font-weight: 1000;
+}
+.profileface {
+    padding: 40px 40px;
+    border-radius: 20%;
+    background-color: #bce6ff;
+}
+
+.profile1{
+    display : flex;
+    justify-content:  center;
+    align-items:  center;
+    background-color: #ebf8ff;
+  }
+
+#profile1-first {
+    display:  flex;
+    justify-content: space-around;
+    align-items:  center;
+    width : 1000px;
+    height : 500px;
+  }
+#profile1-test1 {
+    width: 3000px;
+    height : 300px;
+}
+
+#profile1-test1 dt{
+    display: inline-block;
+    margin-bottom: 17px;
+    width: 110px;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: "GmarketBold";
+    color: #50C8FF;
+}
+
+#profile1-test1 p{
+    font-size: 20px;
+    font-weight:900;
+}
+
+#profile1-test2 {
+    width: 2000px;
+    height : 300px;
+    margin-left: 300px;
+}
+
+#profile1-test2 dt{
+    margin-top : 30px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 1000;
+    color: #50C8FF;
+}
+
+#profile1-test2 dd{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.자기소개{
+    display : flex;
+    justify-content:  center;
+    align-items:  center;
+  }
+
+#자기소개-first {
+    display:  flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:  center;
+    width : 120vh;
+    height : 150vh;
+    
+  }
+#자기소개-test1 {
+    margin-top: 100px;
+    text-align:center;
+    font-size: 22px;
+    font-weight: 1000;
+    color: #50C8FF;
+    height: 200px;
+}
+
+#자기소개-test2 {
+    font-size: 22px;
+    font-weight: 1000;
+    height: 50vh;
+    word-wrap: break-word;
+    line-height: 40px;
+}
+
+#자기소개-test3 {
+    font-size: 22px;
+    font-weight: 1000;
+    height: 40vh;
+    word-wrap: break-word;
+    line-height: 40px;
+}
+
+#자기소개-test4 {
+    font-size: 22px;
+    font-weight: 1000;
+    word-wrap: break-word;
+    line-height: 40px;
+    height: 60vh;
+}
+
+.plan{
+    display : flex;
+    justify-content:  center;
+    align-items:  center;
+    margin-bottom: 100px;
+    background-color: #ebf8ff;
+
+  }
+
+#plan-first {
+    display:  flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:  center;
+    width : 120vw;
+    height: 120vh;
+  }
+#plan-test1 {
+    width: 120vh;
+    word-wrap: break-word;
+    margin-bottom: 100px;
+}
+#plan-test1 h1 {
+    text-align:center;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #50C8FF;
+}
+
+#plan-test1 p {
+    font-size: 22px;
+    font-weight: 1000;
+    line-height: 40px;
+}
+
+#plan-test2 {
+    width: 900px;
+    display : flex;
+    justify-content:  center;
+    align-items:  center;
+}
+
+#plan-test2 td{
+    font-size: 20px;
+}
+
+#plan-test3{
+    margin-top: 20px;
+}
+
+.hobby{
+    display : flex;
+    justify-content:  center;
+    align-items:  center;
+  }
+
+#hobby-first {
+    display:  flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:  center;
+    width : 100vw;
+  }
+
+  #hobby-test0 {
+    color: #50C8FF;
+    margin-bottom: 50px;
+}
+
+  * {margin:0;padding:0;}
+#hobby-test1 {
+    width: 700px;
+}
+
+#hobby-test1 input[id*="slide"] {display:none;}
+	#hobby-test1 .slidewrap {max-width:1200px;margin:0 auto;}
+	#hobby-test1 .slidelist {white-space:nowrap;font-size:0;overflow:hidden;position:relative;}
+	#hobby-test1 .slidelist > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
+	#hobby-test1 .slidelist > li > a {display:block;position:relative;}
+	#hobby-test1 .slidelist > li > a img {width:100%;}
+	#hobby-test1 .slidelist label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
+	#hobby-test1 .slidelist .textbox {position:absolute;z-index:1;top:50%;left:50%;transform:translate(-50%,-50%);line-height:1.6;text-align:center;}
+	#hobby-test1 .slidelist .textbox h3 {font-size:36px;color:#fff;;transform:translateY(30px);transition:all .5s;}
+	#hobby-test1 .slidelist .textbox p {font-size:16px;color:#fff;opacity:0;transform:translateY(30px);transition:all .5s;}
+	
+	/* input에 체크되면 슬라이드 효과 */
+	#hobby-test1 input[id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+	#hobby-test1 input[id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+	#hobby-test1 input[id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+	#hobby-test1 input[id="slide04"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-300%);}
+	#hobby-test1 input[id="slide05"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-400%);}
+	#hobby-test1 input[id="slide06"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-500%);}
+
+	/* input에 체크되면 텍스트 효과 */
+	#hobby-test1 input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	#hobby-test1 input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	#hobby-test1 input[id="slide02"]:checked ~ .slidewrap li:nth-child(2) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	#hobby-test1 input[id="slide02"]:checked ~ .slidewrap li:nth-child(2) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	#hobby-test1 input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	#hobby-test1 input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	#hobby-test1 input[id="slide04"]:checked ~ .slidewrap li:nth-child(4) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	#hobby-test1 input[id="slide04"]:checked ~ .slidewrap li:nth-child(4) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	#hobby-test1 input[id="slide05"]:checked ~ .slidewrap li:nth-child(5) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	#hobby-test1 input[id="slide05"]:checked ~ .slidewrap li:nth-child(5) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	#hobby-test1 input[id="slide06"]:checked ~ .slidewrap li:nth-child(6) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	#hobby-test1 input[id="slide06"]:checked ~ .slidewrap li:nth-child(6) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+
+	/* 좌,우 슬라이드 버튼 */
+	.slide-control > div {display:none;}
+	#hobby-test1 .left {left:30px;background:url('./image/left.png') center center / 100% no-repeat;}
+	#hobby-test1 .right {right:30px;background:url('./image/right.png') center center / 100% no-repeat;}
+	#hobby-test1 input[id="slide01"]:checked ~ .slidewrap .slide-control > div:nth-child(1) {display:block;}
+	#hobby-test1 input[id="slide02"]:checked ~ .slidewrap .slide-control > div:nth-child(2) {display:block;}
+	#hobby-test1 input[id="slide03"]:checked ~ .slidewrap .slide-control > div:nth-child(3) {display:block;}
+	#hobby-test1 input[id="slide04"]:checked ~ .slidewrap .slide-control > div:nth-child(4) {display:block;}
+	#hobby-test1 input[id="slide05"]:checked ~ .slidewrap .slide-control > div:nth-child(5) {display:block;}
+	#hobby-test1 input[id="slide06"]:checked ~ .slidewrap .slide-control > div:nth-child(6) {display:block;}
+
+	/* 페이징 */
+	.slide-pagelist {text-align:center;padding:20px;}
+	.slide-pagelist > li {display:inline-block;vertical-align:middle;}
+	.slide-pagelist > li > label {display:block;padding:8px 30px;border-radius:30px;background:#ccc;margin:20px 10px;cursor:pointer;}
+	#hobby-test1 input[id="slide01"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(1) > label {background:#999;}
+	#hobby-test1 input[id="slide02"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(2) > label {background:#999;}
+	#hobby-test1 input[id="slide03"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(3) > label {background:#999;}
+	#hobby-test1 input[id="slide04"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(4) > label {background:#999;}
+	#hobby-test1 input[id="slide05"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(5) > label {background:#999;}
+	#hobby-test1 input[id="slide06"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(6) > label {background:#999;}
+
+
+    #footer {
+        text-align: center;
+      }
+      #footer h2 {
+        font-family: "GmarketBold";
+        color: #50C8FF;
+        font-size: 40px;
+        margin-bottom: 50px;
+      }
+      .box-footer {
+        background-color: white;
+        padding: 80px 0 70px 0;
+      }
+      .link-sns ul {
+        display: inline-block;
+        margin: 30px auto;
+      }
+      .link-sns li {
+        display: inline-block;
+        padding: 35px;
+        font-size: 12px;
+      }
+      .link-sns li a img {
+        margin-bottom: 10px;
+      }
+      .img-github,
+      .img-velog {
+        width: 65px;
+      }
+      .box-footer p {
+        color: #50C8FF;
+        margin-top: 50px;
+      }
